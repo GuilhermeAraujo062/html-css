@@ -12,14 +12,16 @@
     </style>
 </head>
 <body>
+    <h1>Meu primeiro formulário</h1>
+
     <form action="cadastro.php" autocomplete="off">
-        <label for="nome">Nome: </label>
-        <input type="text" name="nome" id="nome">
+        <p><label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" required></p>
 
-        <label for="sobrenome">Sobrenome: </label>
-        <input type="text" name="sobrenome" id="sobrenome">
+        <p><label for="sobrenome">Sobrenome: </label>
+        <input type="text" name="sobrenome" id="sobrenome" required></p>
 
-        <input type="submit" value="Enviar">
+        <p><input type="submit" value="Enviar"></p>
     </form>
 </body>
 </html>
